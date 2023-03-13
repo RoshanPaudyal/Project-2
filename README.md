@@ -11,3 +11,14 @@ Reasons for creating trading bot:
 4. Backtesting and optimization: Algorithmic trading bots can be backtested on historical data to see how they would have performed in the past. This can help traders optimize their strategies and improve their overall performance.
 
 5. Diversification: Algorithmic trading bots can help traders diversify their portfolio by allowing them to execute trades across multiple assets and markets simultaneously. This can help reduce risk and increase overall returns.
+
+
+Summary template (EXAMPLE ONLY):
+
+The daily time frame provides a longer-term perspective and helps filter out noise and volatility that can occur on shorter time frames. This can result in more reliable and accurate signals for trading decisions based on RSI.
+
+RSI is a momentum indicator that measures the strength of price movements over a given period of time. Daily time frames allow for a longer period of data to be analyzed and can provide a more accurate reflection of overall market sentiment and momentum.
+
+Using Bollinger Bands on a daily time frame can help identify major trend changes and market turning points. This can be particularly useful for swing traders who are looking to capture medium-term price movements.
+
+Backtesting results suggest that the model including RSI and daily time frames was more profitable and had a higher score than the other models tested. This indicates that the combination of RSI and daily time frames may be a more effective strategy for trading than the other combinations tested.
