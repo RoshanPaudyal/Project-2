@@ -22,3 +22,62 @@ RSI is a momentum indicator that measures the strength of price movements over a
 Using Bollinger Bands on a daily time frame can help identify major trend changes and market turning points. This can be particularly useful for swing traders who are looking to capture medium-term price movements.
 
 Backtesting results suggest that the model including RSI and daily time frames was more profitable and had a higher score than the other models tested. This indicates that the combination of RSI and daily time frames may be a more effective strategy for trading than the other combinations tested.
+
+
+## Project Overview
+The goal of this project is to build and evaluate machine learning models to predict the buy and sell signal. The project uses historical stock price data and various technical indicators as features to train and test several classification models.
+
+## Data
+The data used for this project was obtained from Alpaca and consists of historical price data for the selected company. In addition, technical indicators such as moving averages and relative strength index (RSI) were calculated and used as features in the models.
+
+## Methodology
+#### The project involved the following steps:
+
+Data cleaning and pre-processing: The data was cleaned and pre-processed to remove missing values and ensure consistency in the data types.
+
+Feature engineering: Technical indicators were calculated and added as features to the dataset.
+
+Splitting the data: The data was split into training and testing datasets.
+
+#### Model building: The following classification models were trained and evaluated using the training data:
+
+Support Vector Machine (SVM)
+Random Forest Classifier (RFC)
+Model evaluation: The performance of each model was evaluated using classification reports and visualizing the actual versus strategy returns using the testing dataset.
+
+### SVM Model:
+
+              precision    recall  f1-score   support
+
+        -1.0       0.80      0.68      0.73      7884
+         0.0       0.95      0.97      0.96     85198
+         1.0       0.76      0.69      0.72      5485
+
+    accuracy                           0.93     98567
+   macro avg       0.83      0.78      0.80     98567
+weighted avg       0.93      0.93      0.93     98567
+
+### SVM Backtest Model:
+
+              precision    recall  f1-score   support
+
+        -1.0       0.80      0.68      0.73      7884
+         0.0       0.95      0.97      0.96     85198
+         1.0       0.76      0.69      0.72      5485
+
+    accuracy                           0.93     98567
+   macro avg       0.83      0.78      0.80     98567
+weighted avg       0.93      0.93      0.93     98567
+
+### RFC Model:
+
+
+              precision    recall  f1-score   support
+
+        -1.0       0.79      0.67      0.73      7884
+         0.0       0.94      0.97      0.96     85198
+         1.0       0.76      0.64      0.69      5485
+
+    accuracy                           0.93     98567
+   macro avg       0.83      0.76      0.79     98567
+weighted avg       0.93      0.93      0.93     98567
